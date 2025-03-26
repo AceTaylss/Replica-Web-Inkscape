@@ -1,0 +1,292 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFF0;
+}
+
+header {
+    background-color: #FFFFF0;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #FFFFF0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.resaltado {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+.Inicio {
+    font-size: 5em;
+    line-height: 0.4; 
+}
+
+.Intro {
+    color: rgb(255, 102, 0);
+}
+
+.parrafo_inicial {
+    font-size: 1.7em;
+    line-height: 0.5;
+    color: #376258;
+}
+
+.contenedor-columnas {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+  
+.columna {
+    padding: 30px; 
+    gap: 20px;
+}
+
+.contenedor-cartas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carta {
+    margin-bottom: 15px;
+    background-color: var(--bricks-color-qqenwt);
+    border-radius: 15px;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    background-image: linear-gradient(#f06060, #f3b561);
+}
+
+.carta img {
+    width: 50px;
+}
+
+.carta_dos {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    background-image: linear-gradient(#8dbeb2, #376258);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.seccion-blog {
+    display: flex; 
+    background-color: #FFFFF0; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+  
+.imagen-blog img {
+    max-width: 500px; 
+    height: auto;
+    margin-right: 20px; 
+    border-radius: 8px; 
+}
+  
+.contenido-blog {
+    flex: 1; 
+}
+  
+.categoria-blog {
+    background-color: #FFFFF0; 
+    color: #0288d1; 
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+  
+.meta-blog {
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+  
+.meta-blog span {
+    margin-right: 10px;
+}
+  
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.faq_one {
+    font-weight: lighter;
+    width: 100%;
+    margin: 20px 0;
+    font-style: italic;
+    text-align: left;
+    margin-left: 20px; 
+}
+
+.faq {
+    width: 100%;
+    margin: 20px 0;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 20px; 
+}
+
+.faq-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 20px auto; 
+    max-width: 1200px; 
+}
+
+.faq-column {
+    flex: 1;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.faq-question {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.faq-question.active {
+    color: rgb(255, 123, 0);
+}
+
+.faq-answer {
+    padding: 0 15px;
+    background-color: #f9f9f9;
+    color: rgb(255, 123, 0);
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.faq-answer p {
+    padding: 15px 0;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: lighter;
+    color: #181818;
+}
+
+.columna-izquierda {
+    width: 45%;
+    color: #000000;
+}
+
+.columna-derecha {
+    width: 45%;
+    color: #000000;
+}
+
+.buscador {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.buscador input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.buscador button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #181818;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-contenido {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icono {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+.footer-texto {
+    font-size: 14px;
+}
